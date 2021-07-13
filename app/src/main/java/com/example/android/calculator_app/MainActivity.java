@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
     public void sevenBTN(View view){updateText("7");}
     public void eightBTN(View view){updateText("8");}
     public void nineBTN(View view){updateText("9");}
-    public void plusMinusBTN(View view){updateText("+/-");}
+    public void plusMinusBTN(View view){updateText("-");}
     public void decimalBTN(View view){updateText(".");}
     public void equalBTN(View view){
         String userExp =display.getText().toString();
